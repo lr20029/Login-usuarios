@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="menu_register">Registrar</string>
+    <string name="menu_exit">Salir</string>
+    <string name="hint_username">Ingrese de usuario</string>
+    <string name="hint_password">Ingrese de password</string>
+
+</resources>
