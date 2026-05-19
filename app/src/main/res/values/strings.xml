@@ -4,5 +4,9 @@
     <string name="menu_exit">Salir</string>
     <string name="hint_username">Ingrese de usuario</string>
     <string name="hint_password">Ingrese de password</string>
+    <string name="label_username">Usuario</string>
+    <string name="label_password">Password</string>
+    <string name="button_login">Ingresar</string>
+    <string name="button_exit">Salir</string>
 
 </resources>
