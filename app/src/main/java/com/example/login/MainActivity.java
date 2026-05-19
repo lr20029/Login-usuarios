@@ -3,6 +3,8 @@ package com.example.login;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.widget.Button;
 
 import androidx.appcompat.widget.Toolbar;
 import androidx.activity.EdgeToEdge;
@@ -27,9 +29,29 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-    }public boolean onCreateOptionsMenu(Menu menu){
-            MenuInflater inflater = getMenuInflater();
-            inflater.inflate(R.menu.main_menu,menu);
-            return super.onCreateOptionsMenu(menu);
-        }
+
+        // Botón Salir
+        Button btnSalir = findViewById(R.id.button2);
+        btnSalir.setOnClickListener(v -> {
+            finishAffinity();
+            System.exit(0);
+        });
     }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.main_menu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == R.id.action_salir) {
+            finishAffinity();
+            System.exit(0);
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+}
