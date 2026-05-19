@@ -1,7 +1,18 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Login" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    <style name="textviewPersonalizadoNoche" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:fontStyle">italic</item>
+        <item name="android:textStyle">bold</item>
     </style>
+
+    <style name="edittextPersonalizadoNoche" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:background">@color/fondo_input_azul</item>
+        <item name="android:textColorHint">@color/texto_hint_gris</item>
+    </style>
+
+    <style name="Theme.Login" parent="Base.Theme.Login" />
 </resources>

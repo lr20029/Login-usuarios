@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Colores básicos -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="blue">#337dff</color>
     <color name="grey">#e7e8eb</color>
-    <color name="grisclaro">#E0E0E0</color>
-    <color name="red">#E61212</color>
-    <color name="green">#4CF013</color>
+
+    <!-- Colores personalizados (agregados para solucionar el error) -->
     <color name="fondo_input_azul">#F4F7FE</color>
-    <color name="texto_hint_gris">#9BA3AF</color>
     <color name="texto_principal_oscuro">#4A4A4A</color>
+    <color name="texto_hint_gris">#9BA3AF</color>
 </resources>

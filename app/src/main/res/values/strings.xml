@@ -1,12 +1,37 @@
 <resources>
+    <!-- Textos para la app -->
     <string name="app_name">Login</string>
+    <string name="login_title">Login de usuario</string>
+
+    <!-- Menú -->
     <string name="menu_register">Registrar</string>
     <string name="menu_exit">Salir</string>
-    <string name="hint_username">Ingrese de usuario</string>
-    <string name="hint_password">Ingrese de password</string>
-    <string name="label_username">Usuario</string>
-    <string name="label_password">Password</string>
+
+    <!-- Etiquetas -->
+    <string name="label_username">Usuario:</string>
+    <string name="label_password">Password:</string>
+    <string name="label_email">Email:</string>
+    <string name="label_confirm_password">Confirmar Password:</string>
+
+    <!-- Hints (placeholders) -->
+    <string name="hint_username">Ingrese usuario</string>
+    <string name="hint_password">Ingrese password</string>
+    <string name="hint_email">Ingrese email</string>
+    <string name="hint_confirm_password">Repita el password</string>
+
+    <!-- Botones -->
     <string name="button_login">Ingresar</string>
     <string name="button_exit">Salir</string>
+    <string name="button_save">Guardar</string>
+    <string name="button_back">Regresar</string>
 
+    <!-- Mensajes -->
+    <string name="error_empty_fields">Usuario y password son obligatorios</string>
+    <string name="register_title">Nuevo usuario</string>
+    <string name="error_invalid_credentials">Error: Usuario y clave inválidos</string>
+    <string name="error_short_username">El nombre de usuario debe tener al menos 3 caracteres</string>
+    <string name="error_short_password">El password debe tener al menos 5 caracteres alfanuméricos</string>
+    <string name="error_password_mismatch">Los passwords no coinciden</string>
+    <string name="error_invalid_email">El email no tiene un formato válido</string>
+    <string name="success_user_registered">Usuario registrado con éxito</string>
 </resources>
