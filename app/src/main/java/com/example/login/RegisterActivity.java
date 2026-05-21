@@ -26,6 +26,10 @@ public class RegisterActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setDisplayShowTitleEnabled(false);
+        }
+
         // Vincular elementos de la UI
         etNombreUsuario = findViewById(R.id.etNombreUsuario);
         etEmail = findViewById(R.id.etEmail);

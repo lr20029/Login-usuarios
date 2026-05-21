@@ -24,6 +24,10 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setDisplayShowTitleEnabled(false);
+        }
+
         // Botón Ingresar
         Button btnIngresar = findViewById(R.id.button);
         btnIngresar.setOnClickListener(v -> validarUsuario());
